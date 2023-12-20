@@ -62,7 +62,14 @@ const Index: FC<Props> = ({ redDot, userInfo, logOut }) => {
             </div>
           )}
         </Nav.Link>
-
+        <Nav.Link
+          as={NavLink}
+          target="_blank"
+          to="https://xriddle.com/"
+          title="xriddle.com"
+          className="icon-link d-flex align-items-center justify-content-center p-0 me-3 position-relative">
+          <Icon name="house-fill" className="fs-4" />
+        </Nav.Link>
         <Nav.Link
           as={NavLink}
           to="/users/notifications/achievement"
