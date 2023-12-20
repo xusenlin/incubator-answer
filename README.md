@@ -23,7 +23,7 @@ To learn more about the project, visit [answer.apache.org](https://answer.apache
 ### Running with docker
 
 ```bash
-docker run -d -p 9080:80 -v answer-data:/data --name answer xusenlin/incubator-answer:v0.0.1
+docker run -d -p 9080:80 -v answer-data:/data --name answer ghcr.io/xusenlin/incubator-answer:v0.0.1
 ```
 
 For more information, see [Installation](https://answer.apache.org/docs/installation)
